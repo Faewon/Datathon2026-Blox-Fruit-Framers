@@ -37,10 +37,21 @@ Datathon2026-Blox-Fruit-Framers/
 │   ├── README_Part3_Forecasting.md
 │   └── vintelligent-datathon-2026-Part_3.ipynb
 │
-├── Dataset.rar                        # Toàn bộ dữ liệu cuộc thi
 ├── .gitignore
-└── README.md                          # File này
+├── Dataset.rar                        # Toàn bộ dữ liệu cuộc thi
+├── README.md                          # File này
+└── requirements.txt                   # Danh sách thư viện cần thiết
 ```
+
+---
+
+## Cài đặt môi trường
+
+```bash
+pip install -r requirements.txt
+```
+
+> Python 3.8+ được khuyến nghị.
 
 ---
 
@@ -62,16 +73,6 @@ Toàn bộ dữ liệu cuộc thi nằm trong `Dataset.rar`. Giải nén sẽ th
 | `web_traffic.csv` | Lưu lượng truy cập web theo ngày |
 | `sales.csv` | Doanh thu và COGS tổng hợp theo ngày (dùng cho Phần 3) |
 | `sample_submission.csv` | Mẫu file nộp bài (dùng cho Phần 3) |
-
----
-
-## Cài đặt môi trường
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
-
-> Python 3.8+ được khuyến nghị.
 
 ---
 
