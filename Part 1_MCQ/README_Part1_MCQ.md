@@ -1,7 +1,7 @@
 # 📋 Phần 1 — Câu hỏi Trắc nghiệm (MCQ)
 
 **Notebook:** `vintelligent_datathon_2026_MCQ.ipynb`  
-**Nhóm:** The Gridbreakers  
+**Nhóm:** Blox Fruit Farmers
 **Cuộc thi:** VinTelligent Datathon 2026
 
 ---
