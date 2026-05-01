@@ -1,1 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
 
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Output files tạm (nếu không muốn commit ảnh tự generate)
+*.png
+
+# Môi trường ảo
+venv/
+.env/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
