@@ -1,6 +1,6 @@
-# 🏆 VinTelligent Datathon 2026 — The Gridbreakers
+# 🏆 VinTelligent Datathon 2026 — Blox Fruit Farmers
 
-Đây là repository tổng hợp toàn bộ lời giải của nhóm **The Gridbreakers** cho cuộc thi **VinTelligent Datathon 2026**, bao gồm 3 phần độc lập.
+Đây là repository tổng hợp toàn bộ lời giải của nhóm **Blox Fruit Farmers** cho cuộc thi **VinTelligent Datathon 2026**, bao gồm 3 phần độc lập.
 
 ---
 
