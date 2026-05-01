@@ -1,7 +1,7 @@
 # 🏆 Phần 3 — Dự báo Doanh thu (Sales Forecasting — V3 Optimized)
 
 **Notebook:** `vintelligent-datathon-2026-Part_3.ipynb`  
-**Nhóm:** The Gridbreakers  
+**Nhóm:** Blox Fruit Farmers  
 **Cuộc thi:** VinTelligent Datathon 2026
 
 ---
