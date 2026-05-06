@@ -124,12 +124,12 @@ Datathon2026-Blox-Fruit-Framers/
 ├── Part 3_Sales Forcasting/
 │   ├── README_Part3_Forecasting.md
 │   └── vintelligent-datathon-2026-Part_3.ipynb
-│   └── submission.csv                 # Kết quả chạy Model - submit kaggle
+│   └── submission.csv                 # Prediction Model result
 │
 ├── .gitignore
-├── Dataset.rar                        # Toàn bộ dữ liệu cuộc thi
-├── README.md                          # File này
-└── requirements.txt                   # Danh sách thư viện cần thiết
+├── Dataset.rar                        # Dataset used
+├── README.md                          # Summary
+└── requirements.txt                   # Library needed
 ```
 
 ---
