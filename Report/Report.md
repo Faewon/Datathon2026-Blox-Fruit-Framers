@@ -105,14 +105,31 @@ RFM scoring partitions 90,246 customers into: **At Risk 40.0%** (n=36,097), Loya
 ## 🗂️ Repository Structure
 
 ```
-├── input/
-│   └── competitions/
-│       └── datathon-2026-round-1/
-│           ├── sales.csv
-│           └── sample_submission.csv
-├── vintelligent-datathon-2026-Part_3.ipynb
-├── Report.pdf
-└── README.md
+Datathon2026-Blox-Fruit-Framers/
+│
+├── Part 1_MCQ/
+│   ├── README_Part1_MCQ.md
+│   └── vintelligent_datathon_2026_MCQ.ipynb
+│
+├── Part 2_EDA/
+│   ├── Visualizations/
+│   │   ├── insight1.png
+│   │   ├── insight2.png
+│   │   ├── insight3.png
+│   │   ├── insight4.png
+│   │   └── insight5.png
+│   ├── README_Part2_EDA.md
+│   └── vintelligent-datathon-2026-Part_2.ipynb
+│
+├── Part 3_Sales Forcasting/
+│   ├── README_Part3_Forecasting.md
+│   └── vintelligent-datathon-2026-Part_3.ipynb
+│   └── submission.csv                 # Kết quả chạy Model - submit kaggle
+│
+├── .gitignore
+├── Dataset.rar                        # Toàn bộ dữ liệu cuộc thi
+├── README.md                          # File này
+└── requirements.txt                   # Danh sách thư viện cần thiết
 ```
 
 ---
