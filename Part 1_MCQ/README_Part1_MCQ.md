@@ -1,20 +1,21 @@
-# 📋 Phần 1 — Câu hỏi Trắc nghiệm (MCQ)
+# 📋 Part 1 — Multiple Choice Questions (MCQ)
 
 **Notebook:** `vintelligent_datathon_2026_MCQ.ipynb`  
-**Nhóm:** Blox Fruit Farmers
-**Cuộc thi:** VinTelligent Datathon 2026
+**Team:** Blox Fruit Farmers  
+**Competition:** VinTelligent Datathon 2026
 
 ---
 
-## Mô tả
+## Description
 
-Notebook này giải toàn bộ **10 câu hỏi trắc nghiệm** bằng cách tính toán trực tiếp từ dữ liệu thô, không đoán mò — mỗi câu đều có code xác minh kết quả.
+This notebook solves all **10 multiple-choice questions** by performing direct calculations on the raw data — no guessing. Each question includes code that verifies the result.
 
 ---
 
-## Dữ liệu đầu vào
+## Input Data
 
-Tất cả các file CSV cần được đặt **cùng thư mục** với notebook (hoặc cập nhật đường dẫn trong code):
+Place all required CSV files in the **same directory** as the notebook (or update file paths in the code):
+
 
 ```
 orders.csv
@@ -30,40 +31,41 @@ web_traffic.csv
 sales.csv
 ```
 
----
-
-## Hướng dẫn thực thi
-
-**Chạy Local (Jupyter Notebook / VS Code):**
-
-1. Đặt tất cả file CSV vào cùng thư mục với notebook.
-2. Mở `vintelligent_datathon_2026_MCQ.ipynb`.
-3. Chọn **Run All** (hoặc `Kernel → Restart & Run All`) để chạy tuần tự từ trên xuống dưới.
-4. Mỗi cell in ra kết quả tính toán và xác nhận đáp án đúng.
-
-> ⚠️ Không cần cấu hình thêm — notebook dùng đường dẫn tương đối, chỉ cần CSV nằm cùng thư mục.
 
 ---
 
-## Tóm tắt đáp án
+## How to Run
 
-| Câu | Câu hỏi | Đáp án | Giá trị |
-|-----|---------|--------|---------|
-| Q1 | Trung vị số ngày giữa hai lần mua liên tiếp | **C) 144 ngày** | Median gap = 144.0 ngày |
-| Q2 | Phân khúc có tỷ suất lợi nhuận gộp cao nhất | **D) Standard** | Gross margin ~31.3% |
-| Q3 | Lý do trả hàng phổ biến nhất (Streetwear) | **B) wrong_size** | 7,626 lần |
-| Q4 | Nguồn traffic có bounce_rate thấp nhất | **C) email_campaign** | avg bounce = 0.004458 |
-| Q5 | Tỷ lệ dòng order_items có khuyến mãi | **C) 39%** | Chính xác 38.7% |
-| Q6 | Nhóm tuổi có số đơn trung bình cao nhất | **A) 55+** | avg ~5.41 đơn/khách |
-| Q7 | Vùng có tổng doanh thu cao nhất | **C) East** | ~7.29 tỷ VND |
-| Q8 | Phương thức thanh toán phổ biến nhất (đơn bị huỷ) | **A) credit_card** | 28,452 đơn |
-| Q9 | Kích thước có tỷ lệ trả hàng cao nhất | **A) S** | return rate = 5.65% |
-| Q10 | Kế hoạch trả góp có giá trị TB cao nhất | **C) 6 kỳ** | avg ~24,446 VND |
+**Run locally (Jupyter Notebook / VS Code):**
+
+1. Put all CSV files in the same folder as the notebook.  
+2. Open `vintelligent_datathon_2026_MCQ.ipynb`.  
+3. Choose **Run All** (or `Kernel → Restart & Run All`) to execute cells from top to bottom.  
+4. Each cell prints the computed result and confirms the correct answer.
+
+> ⚠️ No extra configuration required — the notebook uses relative paths, so just ensure the CSVs are in the same folder.
 
 ---
 
-## Thư viện cần thiết
+## Answer Summary
+
+| Q  | Question | Answer | Value |
+|----|----------|--------|-------|
+| Q1 | Median days between two consecutive purchases | **C) 144 days** | Median gap = 144.0 days |
+| Q2 | Segment with highest gross margin | **D) Standard** | Gross margin ~31.3% |
+| Q3 | Most common return reason (Streetwear) | **B) wrong_size** | 7,626 times |
+| Q4 | Traffic source with lowest bounce rate | **C) email_campaign** | avg bounce = 0.004458 |
+| Q5 | Share of order_items with promotions | **C) 39%** | Exact 38.7% |
+| Q6 | Age group with highest avg orders | **A) 55+** | avg ~5.41 orders/customer |
+| Q7 | Region with highest total revenue | **C) East** | ~7.29 billion VND |
+| Q8 | Most common payment method (cancelled orders) | **A) credit_card** | 28,452 orders |
+| Q9 | Size with highest return rate | **A) S** | return rate = 5.65% |
+| Q10| Installment plan with highest avg value | **C) 6 periods** | avg ~24,446 VND |
+
+---
+
+## Required Libraries
 
 ```bash
 pip install pandas numpy
-```
+
