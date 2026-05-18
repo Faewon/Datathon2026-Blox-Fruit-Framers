@@ -1,20 +1,20 @@
 # 🏆 VinTelligent Datathon 2026 — Blox Fruit Farmers
 
-Đây là repository tổng hợp toàn bộ lời giải của nhóm **Blox Fruit Farmers** cho cuộc thi **VinTelligent Datathon 2026**, bao gồm 3 phần độc lập.
+This repository contains all solutions from the **Blox Fruit Farmers** team for the **VinTelligent Datathon 2026**, divided into 3 independent parts.
 
 ---
 
-## Tổng quan các phần
+## Overview of Parts
 
-| Phần | Notebook | Nội dung | README chi tiết |
-|------|----------|----------|-----------------|
-| **Phần 1** | `vintelligent_datathon_2026_MCQ.ipynb` | 10 câu hỏi trắc nghiệm — tính toán trực tiếp từ dữ liệu | [README_Part1_MCQ.md](Part%201_MCQ/README_Part1_MCQ.md) |
-| **Phần 2** | `vintelligent-datathon-2026-Part_2.ipynb` | Phân tích kinh doanh (EDA & Business Insights) | [README_Part2_EDA.md](Part%202_EDA/README_Part2_EDA.md) |
-| **Phần 3** | `vintelligent-datathon-2026-Part_3.ipynb` | Dự báo doanh thu (Sales Forecasting — GBR V3) | [README_Part3_Forecasting.md](Part%203_Sales%20Forcasting/README_Part3_Forecasting.md) |
+| Part | Notebook | Content | Detailed README |
+|------|----------|---------|-----------------|
+| **Part 1** | `vintelligent_datathon_2026_MCQ.ipynb` | 10 multiple-choice questions — direct calculations from data | [README_Part1_MCQ.md](Part%201_MCQ/README_Part1_MCQ.md) |
+| **Part 2** | `vintelligent-datathon-2026-Part_2.ipynb` | Business analysis (EDA & Business Insights) | [README_Part2_EDA.md](Part%202_EDA/README_Part2_EDA.md) |
+| **Part 3** | `vintelligent-datathon-2026-Part_3.ipynb` | Sales forecasting (GBR V3) | [README_Part3_Forecasting.md](Part%203_Sales%20Forcasting/README_Part3_Forecasting.md) |
 
 ---
 
-## Cấu trúc thư mục
+## Folder Structure
 
 ```text
 Datathon2026-Blox-Fruit-Framers/
@@ -36,61 +36,9 @@ Datathon2026-Blox-Fruit-Framers/
 ├── Part 3_Sales Forcasting/
 │   ├── README_Part3_Forecasting.md
 │   └── vintelligent-datathon-2026-Part_3.ipynb
-│   └── submission.csv                 # Kết quả chạy Model - submit kaggle
+│   └── submission.csv                 # Model output — Kaggle submission
 │
 ├── .gitignore
-├── Dataset.rar                        # Toàn bộ dữ liệu cuộc thi
-├── README.md                          # File này
-└── requirements.txt                   # Danh sách thư viện cần thiết
-```
-
----
-
-## Cài đặt môi trường
-
-```bash
-pip install -r requirements.txt
-```
-
-> Python 3.8+ được khuyến nghị.
-
----
-
-## Dữ liệu
-
-Toàn bộ dữ liệu cuộc thi nằm trong `Dataset.rar`. Giải nén sẽ thu được các file CSV sau:
-
-| File | Mô tả |
-|------|-------|
-| `orders.csv` | Thông tin đơn hàng, trạng thái, phương thức thanh toán |
-| `order_items.csv` | Chi tiết sản phẩm trong từng đơn hàng |
-| `products.csv` | Danh mục sản phẩm, giá, COGS, phân khúc |
-| `promotions.csv` | Thông tin chương trình khuyến mãi |
-| `payments.csv` | Chi tiết thanh toán, kỳ trả góp |
-| `returns.csv` | Lịch sử trả hàng và lý do |
-| `customers.csv` | Thông tin khách hàng, nhóm tuổi |
-| `geography.csv` | Mã zip, thành phố, vùng |
-| `inventory.csv` | Tình trạng tồn kho (stockout/overstock) |
-| `web_traffic.csv` | Lưu lượng truy cập web theo ngày |
-| `sales.csv` | Doanh thu và COGS tổng hợp theo ngày (dùng cho Phần 3) |
-| `sample_submission.csv` | Mẫu file nộp bài (dùng cho Phần 3) |
-
----
-
-## Thứ tự chạy khuyến nghị
-
-Mỗi phần là notebook độc lập, có thể chạy theo bất kỳ thứ tự nào. Tuy nhiên nếu muốn hiểu toàn bộ pipeline:
-
-```
-Phần 1 (MCQ)  →  Phần 2 (EDA & Insights)  →  Phần 3 (Forecasting)
-```
-
-Xem README riêng của từng phần để biết hướng dẫn cụ thể về đường dẫn dữ liệu và cách chạy.
-
----
-
-## Kết quả nổi bật
-
-- **Phần 1:** 10/10 câu trắc nghiệm với code xác minh từng đáp án
-- **Phần 2:** 5 business insights + 1 bonus analysis, trực quan hoá bằng matplotlib/seaborn
-- **Phần 3:** Validation MAE ~502,000 VND | R² = 0.826 trên tập 2021–2022
+├── Dataset.rar                        # Full competition dataset
+├── README.md                          # This file
+└── requirements.txt                   # Required libraries
